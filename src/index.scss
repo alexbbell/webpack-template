@@ -1,0 +1,18 @@
+@import 'libs/normalize.css';
+@import 'style/fonts.scss';
+@import 'style/_vars.scss';
+
+body {
+  background-color: $abck;
+  //font: 100% $font-stack;
+  font-family: 'Kirlian-Bold';
+  color: $primary-color;
+  user-select: none;
+}
+
+
+.image {
+  width: 300px; height: 300px;
+  background-size: cover;
+  background-image: url('img/Screenshot 2022-09-05 194024.png');
+}
